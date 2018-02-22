@@ -8,10 +8,22 @@
   "dependencies": {
     "body-parser": "~1.18.2",
     "bootstrap": "^4.0.0",
+    "compression": "^1.7.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.15.5",
+    "express-paginate": "^0.3.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
     "mongodb": "^3.0.2",
+    "mongoose": "^5.0.6",
+    "mongoose-paginate": "^5.0.3",
+    "mongoose-paginate-links": "^1.0.4",
     "morgan": "~1.9.0",
     "pug": "2.0.0-beta11",
     "save-dev": "^2.0.0",
@@ -20,6 +32,7 @@
     "vanilla-js-carousel": "^3.1.2"
   },
   "devDependencies": {
-    "nodemon": "^1.15.0"
+    "nodemon": "^1.15.0",
+    "require-dir": "^1.0.0"
   }
 }
